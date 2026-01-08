@@ -1,3 +1,120 @@
 <!-- © The Chancellor, Masters and Scholars of The University of Oxford. All rights reserved. -->
 
-<p>Hello mazure</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My University Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .header {
+            background-color: #002147;
+            color: #ffffff;
+            padding: 0 2rem;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .header-left img {
+            height: 40px;
+            width: auto;
+        }
+
+        .header-left .service-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .header-right img {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .username {
+            font-size: 0.95rem;
+            color: #ffffff;
+        }
+
+        .user-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn {
+            background-color: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background-color 0.2s, border-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .main-content {
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <img src="logo.png" alt="Logo">
+            <span class="service-name">My University Service</span>
+        </div>
+        <div class="header-right">
+            <div class="user-info">
+                <img src="user.png" alt="User">
+                <span class="username">Paul Demanze</span>
+            </div>
+            <div class="user-actions">
+                <button class="btn">Settings</button>
+                <button class="btn">Logout</button>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <!-- Content goes here -->
+    </main>
+</body>
+</html>
