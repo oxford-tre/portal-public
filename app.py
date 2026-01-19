@@ -12,7 +12,3 @@ def home():
 @app.route("/logo.png")
 def serve_logo():
     return send_from_directory('.', 'logo.png')
-
-@app.route("/user.png")
-def serve_user():
-    return send_from_directory('.', 'user.png')
